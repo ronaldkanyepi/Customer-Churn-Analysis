@@ -94,10 +94,9 @@ The project follows a standard data science workflow:
 ### 7. Feature Importance
 We used SHAP and LIME for feature importance analysis
 ![img.png](images/img.png)
- ![img_1.png](images/img_1.png)
+![img_1.png](images/img_1.png)
 ![img_2.png](images/img_2.png)
 ![img_3.png](images/img_3.png)
-
 ---
 ## Libraries and Tools Used
 
