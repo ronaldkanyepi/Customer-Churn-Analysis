@@ -1,0 +1,13 @@
+jupyter==1.1.1
+keras==2.10.0
+matplotlib==3.10.0
+notebook==7.3.2
+numpy==1.26.4
+optuna==4.2.1
+pandas==2.2.3
+scikit-learn==1.6.1
+seaborn==0.13.2
+shap==0.47.1
+tensorflow==2.10.0
+xgboost
+lime
