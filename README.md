@@ -116,62 +116,16 @@ We used SHAP and LIME for feature importance analysis
 ---
 ## Conclusion
 
+This project identified key churn drivers and built predictive models to flag high-risk customers. **Gradient Boosting** outperformed all models based on AUC-ROC and was selected as the final model. SHAP and LIME provided valuable insights into feature importance, supporting strategic business decisions.
 
----
-## How to Run
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/ronaldkanyepi/Customer-Churn-Analysis
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd customer-churn-analysis 
-    ```
-    *(Assuming 'customer-churn-analysis' is your project directory name. Adjust if different.)*
-
-3.  Install the required dependencies (it's recommended to use a virtual environment):
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(To create `requirements.txt`, run `pip freeze > requirements.txt` in your project's virtual environment after installing all necessary packages like pandas, numpy, matplotlib, seaborn, scikit-learn.)*
-
-4.  Open the Jupyter Notebook:
-    ```bash
-    jupyter notebook "Customer Churn Analysis.ipynb"
-    ```
-5.  Run the cells in the notebook sequentially to reproduce the analysis.
---
 ## Future Work
 
-To further enhance the churn prediction pipeline and maximize business impact, the following initiatives are recommended:
-
-- **Personalized Retention Strategies**  
-  - Implement targeted offers (e.g., discounts, loyalty rewards, or service upgrades) for high-risk customers identified by the model to proactively reduce churn.
-
-- **Proactive Customer Support**  
-  - Introduce early warning systems that flag at-risk customers for immediate outreach. Assign dedicated account managers or support teams to improve satisfaction and loyalty.
-
-- **Enhanced Customer Engagement**  
-  - Develop campaigns to educate customers on service features through personalized content, usage alerts, and tips—reinforcing perceived product value and reducing churn likelihood.
-
-- **Segment-Based Targeting**  
-  - Use model-driven customer segmentation to tailor retention efforts by risk tier (e.g., high, medium, low). This ensures efficient allocation of retention resources across different customer profiles.
-
-- **Real-Time Scoring Integration**  
-  - Deploy the trained model in a production environment to score customers in real time and trigger automated retention workflows.
-
-- **Feedback Loop & Continuous Learning**  
-  - Regularly retrain models with updated customer data to capture evolving behavior patterns, and incorporate customer feedback to refine prediction accuracy.
----
-## Conclusion
-
-This project effectively identified the key drivers behind customer churn and built predictive models to flag high-risk customers. Among all models tested, **Gradient Boosting** demonstrated the best performance in terms of AUC-ROC, making it the most reliable model for churn prediction in this case.
-
-Through thorough exploratory data analysis and targeted feature engineering, we uncovered actionable patterns in customer behavior. Interpretability tools such as **SHAP** and **LIME** further helped in explaining model predictions and highlighting the most influential features.
-
-These insights empower telecom providers to implement personalized retention strategies, improve service quality, and proactively engage at-risk customers. Future enhancements could include real-time prediction systems and continuous learning pipelines based on new customer data.
-
+- **Targeted Retention**: Offer personalized discounts or upgrades to high-risk customers.
+- **Proactive Support**: Use alerts to flag churn risks and assign dedicated support.
+- **Customer Engagement**: Send usage tips and educational content to boost satisfaction.
+- **Risk-Based Segmentation**: Tailor campaigns by churn risk (high, medium, low).
+- **Real-Time Scoring**: Deploy the model to enable live churn predictions and actions.
+- **Model Updates**: Retrain with new data regularly for improved accuracy.
 
 ---
 ## Contributors
